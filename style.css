@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(img/default.png), auto;
+}
+
+a{
+    cursor: url(img/default2.png), auto;
+}
+
+
+body {
+    font-family: 'Lato';
+    background-color: #131312;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #3f2d76;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Encabezado */
+
+header {
+    width: 100%;
+    height: 720px;
+    background: rgb(255,0,0);
+    background: linear-gradient(45deg, rgba(255,0,0,1) 10%, rgba(255,235,0,1) 90%);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header .textos-header{
+    display:flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header{
+    padding: 79px 0 0 0;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-style: italic;
+}
+
+/* Sobre Nosotros */
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-about-us{
+    width: 48%;
+    margin-right: 30px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    color: #a4a5a5;
+    background-color: #1f1e1f;
+    padding: 5px;
+}
+
+.contenido-textos h3 span{
+    background: #341e75;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 #00000080;
+    margin-right: 7px;
+}
+
+.contenido-textos p{
+    font-weight: 300px;
+    text-align: justify;
+    color: #fff;
+    background-color: #1f1e1f;
+    padding: 5px;
+}
+
+/* Galeria */
+
+.canvas{
+    background: #131312;
+}
+
+.galeria-canvas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-canvas{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-canvas > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.galeria-diagrama{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.imagen-diagrama{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-diagrama > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Nuestros Servicios */
+
+.nuestros-servicios{
+    background: #1f1e1f;
+    padding-bottom: 0px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 0;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+    background-color:#1f1e1f;
+    padding: 10px;
+    color: #fff;
+}
+
+.servicio-ind img{
+    width: 252px;
+    height: 163px;
+    align-items: center;
+    background-color:#1f1e1f;
+    padding: 10px;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+    background-color:#1f1e1f;
+    color: #949494;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: start;
+}
+
+/* Footer */
+
+footer{
+    background: #131312;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #ccc;
+    border-bottom: 3px solid #3f2d76;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #ccc;
+}
+
+/* Estilos para Misión y Visión */
+.mision-vision {
+    background: #1f1e1f;
+    padding: 60px 0;
+    color: #fff;
+  }
+  
+  .titulo-mision {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mision-vision-destacado {
+    color: #3f2d76;
+    font-size: 50px;
+  }
+  
+  .contenido-mision-vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contenido-mision-vision h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contenido-mision-vision p {
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: large;
+  }
+  
+/* Estilos para "¿Quiénes Somos?" */
+.quienes-somos {
+    background: #1f1e1f;
+    padding: 60px 0;
+    color: #fff;
+  }
+  
+  .quienes-somos .contenedor {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .quienes-somos .titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .quienes-somos p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
